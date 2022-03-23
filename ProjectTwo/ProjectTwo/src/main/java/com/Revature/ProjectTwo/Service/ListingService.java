@@ -7,9 +7,9 @@ import java.util.List;
 
 @Service
 public interface ListingService {
-    public List<Listing> getAllListings();
-    public Listing getListingById(int id);
-    public Listing addListing(Listing listing);
-    public void updateListing(int id, Listing listing);
-    public void deleteListing(int id);
+    List<Listing> getAllListings();
+    Listing getListingById(int id);
+    Listing addListing(Listing listing);
+    void updateListing(int id, Listing listing);
+    void deleteListing(int id);
 }
