@@ -13,7 +13,7 @@ export class DataService {
     return this.http.get<any>('http://localhost:9000/users')
   }
 
-/*   getListings(): Observable<any>{
+  getListings(): Observable<any>{
     return this.http.get<any>('http://localhost:9000/listings')
-  } */
+  }
 }

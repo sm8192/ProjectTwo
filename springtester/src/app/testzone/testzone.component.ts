@@ -12,7 +12,6 @@ export class TestzoneComponent implements OnInit {
 
   constructor(private data : DataService) {
     this.data.getUsers().subscribe(data => {this.users = data});
-    console.log("Subscribed")
 
   }
   ngOnInit(): void {
